@@ -1,0 +1,132 @@
+body {
+    background: #0000ff url(гроза.jpg) no-repeat; 
+    overflow: hidden;
+    margin: auto;
+}
+.container {
+    position: relative;
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+    
+   }
+    
+h1 {
+    font-size: 48px;
+    margin-bottom: 0.15em;
+    }
+     h2 {
+        font-size: 32px;
+        font-weight: normal;
+        margin-top: 0.15em; 
+        }
+.left {
+    position: absolute;
+    margin-left: 125px;
+    margin-top: 198px
+}
+.right {
+    position: absolute;
+    margin-right: 20px;
+    margin-top: 0px
+}
+.container1 {
+    width: 300px;
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative;
+    margin-top: 60px;
+  }
+  .container1 input#search   {
+    width: 697px;
+    height: 60px; 
+    background: white;
+    border: none;
+    font-size: 26px;
+    float: left;
+    text-indent: 17px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+  }
+
+ .container1 .icon {
+    position: absolute;
+    top: 50%;
+    margin-left: 657px;
+    margin-top: 17px;
+    z-index: 1;
+    color: gray;
+    height: 45px;
+    width: 45px;
+    font-size: 25px;
+}
+.menu {
+    float: right;
+    margin-right: 10px;
+    font-size: 10px
+    
+}
+.menu .icon i {
+    font-size: 25px;
+}
+nav ul {
+    padding:0;
+    margin:0;
+    list-style: none;
+    position: relative;
+        }
+nav ul li {
+    margin: 0px -7px 0 0;
+    display:inline-block;
+        }
+nav a {
+    display:block;
+    padding:15px;
+    color:#FFF;
+    font-size:16px;
+    text-decoration:none;
+            }
+        nav ul ul {
+            display: none;
+            position: absolute;
+            top: 100%;
+        }
+        nav ul li:hover > ul {
+            display:inherit;
+        }
+        nav ul ul li {
+            min-width:170px;
+            float:none;
+            display:list-item;
+            position: relative;
+        }
+.social {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    font-size: 15px;
+    margin-left: 45px;
+    }
+.set {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    font-size: 22px;
+    margin-bottom: 27px;
+    margin-left: 15px;
+}
+.time {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    font-size: 50px;
+    line-height: 10px;
+    font-weight: normal;
+    margin-bottom: 10px
+}
+h6 {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 160px;
+    font-weight: normal
+    }
