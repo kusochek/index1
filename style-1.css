@@ -118,7 +118,7 @@ nav a {
 .time {
     position: fixed;
     bottom: 0px;
-    right: 0px;
+    right: 200px;
     font-size: 50px;
     line-height: 10px;
     font-weight: normal;
@@ -130,3 +130,20 @@ h6 {
     margin-left: 160px;
     font-weight: normal
     }
+.weather {
+    position: fixed;
+    bottom: 50px;
+    right: 0px;
+    font-size: 30px;
+    line-height: 10px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+.country {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    font-size: 5px;
+    line-height: 10px;
+    font-weight: normal;
+}
